@@ -1,0 +1,20 @@
+{
+    "name": "nahad/foundation",
+    "description": "Nahad Foundation Contains All Required Nahad Packages",
+    "autoload": {
+        "psr-4": {
+            "Nahad\\Foundation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nahad"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nahad\\Foundation\\": "src/"
+        }
+    },
+    "require": {}
+}
