@@ -14,6 +14,7 @@ class FoundationServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        require __DIR__ . '/Http/routes.php';
+        $this->loadRoutesFrom(__DIR__ . '/Http/routes.php'); 
+        $this->loadRoutesFrom(__DIR__ . '/Auth/routes/auth.php');
     }
 }
