@@ -1,6 +1,6 @@
 <?php
 
-namespace Nahad\Auth\Http\Controllers\Dashboard;
+namespace Nahad\Foundation\Auth\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use Nahad\Foundation\Auth\Models\User;
