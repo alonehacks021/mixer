@@ -8,13 +8,6 @@ use Nahad\Foundation\Auth\Http\Requests\Dashboard\User\UpdateRequest;
 use Nahad\Foundation\Auth\Models\User;
 use Nahad\Foundation\Dashboard\Support\Alert;
 
-use Illuminate\Http\Request;
-use Nahad\Foundation\Auth\Events\UserCreated;
-use Nahad\Foundation\Auth\Http\Requests\Dashboard\User\RolesRequest;
-use Nahad\Foundation\Auth\Models\Role;
-use Nahad\Foundation\Auth\Services\SpecialService;
-use Nahad\Foundation\Auth\Services\UserService;
-
 class UserController extends Controller {
 
     public function index(Request $request) {
