@@ -1,0 +1,327 @@
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 100;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Thin.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Thin.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 200;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-UltraLight.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-UltraLight.woff2') format('woff2');	
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 300;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Light.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Light.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 500;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Medium.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Medium.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 600;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-DemiBold.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-DemiBold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 800;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-ExtraBold.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-ExtraBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 900;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Black.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Black.woff2') format('woff2');		 
+}
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 950;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-ExtraBlack.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-ExtraBlack.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 1000;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Heavy.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Heavy.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: bold;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Bold.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Bold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: normal;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Regular.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Regular.woff2') format('woff2');	
+}
+
+.font-monoscape {
+    -moz-font-feature-settings: "ss03";
+    -webkit-font-feature-settings: "ss03";
+    font-feature-settings: "ss03";
+}
+
+*,
+.popover {
+    font-family: IRANYekanXFaNum;
+    direction: rtl !important;
+    font-feature-settings: "ss01";
+}
+
+.layout-fixed .main-sidebar {
+    right: 0;
+}
+
+.brand-image {
+    float: right;
+    margin-right: .8rem;
+    margin-left: .5rem;
+}
+
+.content-wrapper,
+.main-footer,
+.main-header {
+    margin-left: 0px;
+    margin-right: 250px;
+}
+
+.mr-auto-navbav {
+    margin-right: auto!important;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+[class*=icheck-]>input:first-child:checked+input[type=hidden]+label::after,
+[class*=icheck-]>input:first-child:checked+label::after {
+    right: 15px;
+    left: auto;
+}
+
+.nav-sidebar .nav-link>.right,
+.nav-sidebar .nav-link>p>.right {
+    left: 1rem;
+    right: auto;
+}
+
+.nav-sidebar .nav-link>.right:nth-child(2),
+.nav-sidebar .nav-link>p>.right:nth-child(2) {
+    left: 2.2rem;
+    right: auto;
+}
+
+.nav-sidebar .nav-link>img.nav-icon {
+    height: 1.6rem;
+    width: 1.6rem;
+    display: inline-block;
+    padding: .2rem;
+}
+
+.small-box .icon>i {
+    left: 15px;
+    right: auto;
+}
+
+@media (min-width: 992px) {
+    .sidebar-mini.sidebar-collapse .content-wrapper,
+    .sidebar-mini.sidebar-collapse .main-footer,
+    .sidebar-mini.sidebar-collapse .main-header {
+        margin-right: 4.6rem!important;
+    }
+    .sidebar-mini.sidebar-collapse .content-wrapper,
+    .sidebar-mini.sidebar-collapse .main-footer,
+    .sidebar-mini.sidebar-collapse .main-header {
+        margin-right: 4.6rem!important;
+        margin-left: 0!important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .main-sidebar,
+    .main-sidebar::before {
+        box-shadow: none !important;
+        margin-right: -250px;
+    }
+    .content-wrapper,
+    .content-wrapper::before,
+    .main-footer,
+    .main-footer::before,
+    .main-header,
+    .main-header::before {
+        margin-right: 0;
+    }
+    .sidebar-open .main-sidebar,
+    .sidebar-open .main-sidebar::before {
+        margin-right: 0;
+    }
+}
+
+
+/* ------------------------ Custom Nahad ----------------------------- */
+
+.table td.fit,
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+span.select2-container span.select2-selection--single {
+    height: calc(2.25rem + 2px);
+}
+
+element {}
+
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-search--inline {
+    float: right;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    list-style: none;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #e4e4e4;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: default;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 0 5px;
+    color: #000;
+}
+
+.select2-selection--multiple {
+    width: 100%;
+    float: right;
+}
+
+span.select2-container--default span.select2-selection--multiple li.select2-selection__choice,
+span.select2-selection__choice__display {
+    color: #000;
+}
+
+div.dataTables_filter {
+    float: left;
+}
+
+.user-panel img {
+    height: 2.1rem;
+}
+
+.user-panel .image {
+    padding-right: .8rem
+}
+
+div.mds-bootstrap-persian-datetime-picker-container.rtl tfoot table.table {
+    direction: ltr !important;
+}
+
+.btn-notification {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+}
+
+@keyframes ring {
+    0% {
+        transform: rotate(-15deg)
+    }
+    2% {
+        transform: rotate(15deg)
+    }
+    4% {
+        transform: rotate(-18deg)
+    }
+    6% {
+        transform: rotate(18deg)
+    }
+    8% {
+        transform: rotate(-22deg)
+    }
+    10% {
+        transform: rotate(22deg)
+    }
+    12% {
+        transform: rotate(-18deg)
+    }
+    14% {
+        transform: rotate(18deg)
+    }
+    16% {
+        transform: rotate(-12deg)
+    }
+    18% {
+        transform: rotate(12deg)
+    }
+    20% {
+        transform: rotate(0deg)
+    }
+}
+
+.btn-notification>i.animated {
+    animation: ring 2s ease infinite;
+    transform-origin-x: 50%;
+    transform-origin-y: 0px;
+    transform-origin-z: initial;
+    font-size: 1.8em;
+}
+
+.popover {
+    width: 300px;
+    max-width: 80%;
+}
+
+label.custom-file-label {
+    text-align: left;
+}
+
+label.custom-file-label::after {
+    left: auto;
+    right: 0;
+    bottom: 0;
+    padding: .375rem .75rem;
+    content: "انتخاب";
+}

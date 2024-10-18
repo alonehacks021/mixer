@@ -1,0 +1,90 @@
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 100;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Thin.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Thin.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 200;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-UltraLight.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-UltraLight.woff2') format('woff2');	
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 300;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Light.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Light.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 500;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Medium.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Medium.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 600;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-DemiBold.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-DemiBold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 800;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-ExtraBold.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-ExtraBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 900;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Black.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Black.woff2') format('woff2');		 
+}
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 950;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-ExtraBlack.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-ExtraBlack.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: 1000;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Heavy.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Heavy.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: bold;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Bold.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Bold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: IRANYekanXFaNum;
+	font-style: normal;
+	font-weight: normal;
+	src: url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Regular.woff') format('woff'),   
+	url('/vendor/dashboard/fonts/iran-yekan-x/woff/IRANYekanXFaNum-Regular.woff2') format('woff2');	
+}
+
+*{
+	font-family: IRANYekanXFaNum;
+}

@@ -14,7 +14,8 @@
     "autoload": {
         "psr-4": {
             "Nahad\\Foundation\\": "src/",
-            "Nahad\\Auth\\": "src/Auth/"
+            "Nahad\\Auth\\": "src/Auth/",
+            "Nahad\\Dashboard\\": "src/Dashboard/"
         }
     },
     "require": {}

@@ -1,0 +1,1 @@
+@extends((config('dashboard.package') === 'bs5') ? str_replace('-layout', '-bs5-layout', config('dashboard.layout')) : config('dashboard.layout'))
