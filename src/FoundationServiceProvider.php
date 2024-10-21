@@ -25,6 +25,7 @@ class FoundationServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/Auth/routes/auth.php'); 
         $this->loadRoutesFrom(__DIR__ . '/Auth/routes/api.php'); 
         $this->loadRoutesFrom(__DIR__ . '/Dashboard/routes/web.php'); // Load dashboard web routes
+        $this->loadRoutesFrom(__DIR__ . '/Log/routes/web.php'); // Load log web routes
 
         // Load views
         $this->loadViewsFrom(__DIR__ . '/Auth/resources/views', 'auth');
